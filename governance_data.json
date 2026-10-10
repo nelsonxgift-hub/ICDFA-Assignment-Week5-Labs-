@@ -26,6 +26,24 @@
       "approval_date": "2023-03-05",
       "review_date": "2024-03-05",
       "status": "Active"
+    },
+    {
+      "id": "POL-004",
+      "name": "Security Governance Oversight",
+      "description": "Policy defining security governance roles, responsibilities, and oversight",
+      "owner": "CEO",
+      "approval_date": "2026-10-10",
+      "review_date": "2027-10-10",
+      "status": "Active"
+    },
+    {
+      "id": "POL-005",
+      "name": "Security Governance Oversight",
+      "description": "Policy defining security governance roles, responsibilities, and oversight",
+      "owner": "CEO",
+      "approval_date": "2026-10-10",
+      "review_date": "2027-10-10",
+      "status": "Active"
     }
   ],
   "controls": [
@@ -54,6 +72,96 @@
       "policy_id": "POL-003",
       "owner": "Security Director",
       "implementation_date": "2023-03-10",
+      "status": "Implemented"
+    },
+    {
+      "id": "CTL-004",
+      "name": "Automated Patch Management",
+      "description": "Automated system for identifying, testing, and applying security patches",
+      "policy_id": "POL-001",
+      "owner": "Security Engineer",
+      "implementation_date": "2026-10-10",
+      "status": "Implemented"
+    },
+    {
+      "id": "CTL-005",
+      "name": "Network Segmentation",
+      "description": "Implementation of network segmentation according to least privilege principle",
+      "policy_id": "POL-001",
+      "owner": "Network Engineer",
+      "implementation_date": "2026-10-10",
+      "status": "Implemented"
+    },
+    {
+      "id": "CTL-006",
+      "name": "Database Security",
+      "description": "Implementation of strong authentication and access controls for databases",
+      "policy_id": "POL-001",
+      "owner": "Database Administrator",
+      "implementation_date": "2026-10-10",
+      "status": "Implemented"
+    },
+    {
+      "id": "CTL-007",
+      "name": "Real-time Security Monitoring",
+      "description": "Implementation of real-time security monitoring and alerting",
+      "policy_id": "POL-001",
+      "owner": "Security Engineer",
+      "implementation_date": "2026-10-10",
+      "status": "Implemented"
+    },
+    {
+      "id": "CTL-008",
+      "name": "Executive Security Oversight",
+      "description": "Implementation of executive and board oversight of security program",
+      "policy_id": "POL-004",
+      "owner": "CEO",
+      "implementation_date": "2026-10-10",
+      "status": "Implemented"
+    },
+    {
+      "id": "CTL-009",
+      "name": "Automated Patch Management",
+      "description": "Automated system for identifying, testing, and applying security patches",
+      "policy_id": "POL-001",
+      "owner": "Security Engineer",
+      "implementation_date": "2026-10-10",
+      "status": "Implemented"
+    },
+    {
+      "id": "CTL-010",
+      "name": "Network Segmentation",
+      "description": "Implementation of network segmentation according to least privilege principle",
+      "policy_id": "POL-001",
+      "owner": "Network Engineer",
+      "implementation_date": "2026-10-10",
+      "status": "Implemented"
+    },
+    {
+      "id": "CTL-011",
+      "name": "Database Security",
+      "description": "Implementation of strong authentication and access controls for databases",
+      "policy_id": "POL-001",
+      "owner": "Database Administrator",
+      "implementation_date": "2026-10-10",
+      "status": "Implemented"
+    },
+    {
+      "id": "CTL-012",
+      "name": "Real-time Security Monitoring",
+      "description": "Implementation of real-time security monitoring and alerting",
+      "policy_id": "POL-001",
+      "owner": "Security Engineer",
+      "implementation_date": "2026-10-10",
+      "status": "Implemented"
+    },
+    {
+      "id": "CTL-013",
+      "name": "Executive Security Oversight",
+      "description": "Implementation of executive and board oversight of security program",
+      "policy_id": "POL-005",
+      "owner": "CEO",
+      "implementation_date": "2026-10-10",
       "status": "Implemented"
     }
   ],
@@ -134,6 +242,46 @@
       "actual": 1.0,
       "period": "May 2023",
       "trend": "Stable",
+      "status": "Active"
+    },
+    {
+      "id": "MET-004",
+      "name": "Critical Patch Compliance",
+      "description": "Percentage of systems with critical patches applied within 7 days",
+      "target": 100.0,
+      "actual": 100.0,
+      "period": "October 2026",
+      "trend": "Improved",
+      "status": "Active"
+    },
+    {
+      "id": "MET-005",
+      "name": "Security Monitoring Coverage",
+      "description": "Percentage of critical systems covered by security monitoring",
+      "target": 100.0,
+      "actual": 100.0,
+      "period": "October 2026",
+      "trend": "Improved",
+      "status": "Active"
+    },
+    {
+      "id": "MET-006",
+      "name": "Critical Patch Compliance",
+      "description": "Percentage of systems with critical patches applied within 7 days",
+      "target": 100.0,
+      "actual": 100.0,
+      "period": "October 2026",
+      "trend": "Improved",
+      "status": "Active"
+    },
+    {
+      "id": "MET-007",
+      "name": "Security Monitoring Coverage",
+      "description": "Percentage of critical systems covered by security monitoring",
+      "target": 100.0,
+      "actual": 100.0,
+      "period": "October 2026",
+      "trend": "Improved",
       "status": "Active"
     }
   ],
